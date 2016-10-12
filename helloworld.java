@@ -1,7 +1,5 @@
-public class YourName {
-  public ststic void main(string[] args) {
-  
-  System.out.println("Hello World");
-  
+public class helloworld {
+  public static void main(String[] args) {
+  System.out.print("Hello World");
   }
 }
