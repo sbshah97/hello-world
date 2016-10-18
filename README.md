@@ -10,6 +10,17 @@ For each hello-world download that language's compiler and run the file.
 ```
 python hello_world.py (assuming you have python. But everyone has python)
 ```
+### For go
+##### Running hello-world
+```
+go run hello-world.go
+```
+#### Building hello-world into an executable
+```
+go build hello-world.go
+./hello-world
+```
+
 
 ## Contributing
 
