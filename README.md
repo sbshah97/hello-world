@@ -28,6 +28,23 @@ go build hello-world.go
 ./hello-world
 ```
 
+## Running projects via Docker:
+
+### Running the container
+- Make sure you have [docker.io](https://www.docker.com/) installed on your system by running `docker -v`, which should log the current version of *docker* installed.
+- Run `docker run -v $(pwd):/home/docker -w /home/docker -it --rm <image_name> /bin/bash` to run an interactive container.
+- Compile and run your desired program
+
+### Docker hello-world:
+- After installing [Docker](https://www.docker.com/), simply run `docker run hello-world`.
+- This should create a container which displays a **hello-world** message.
+
+### Finding your desired image:
+- Goto the [docker hub](https://hub.docker.com/).
+- Search for the language/environment you want to run.
+- Choose any image in the list.
+- Run the 
+
 ## Contributing
 
 - I am always looking for more contributions.
