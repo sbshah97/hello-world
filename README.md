@@ -28,6 +28,17 @@ go build hello-world.go
 ./hello-world
 ```
 
+### For *fortran*:
+##### Running hello-world
+- First compile the code into an executable _helloworldfortran.out_:
+```bash
+gfortran hello-world.f90 -o helloworldfortran.out
+```
+- Then run the executable:
+```bash
+./helloworldfortran.out
+```
+
 ## Running projects via Docker:
 
 ### Running the container
