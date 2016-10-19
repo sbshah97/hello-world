@@ -12,36 +12,6 @@ The hello-world code for each language is in its own directory. This directory a
 
 ### Examples:
 
-### For *python*:
-- (assuming you have python. But everyone has python)
-```bash
-python Python/hello_world.py
-```
-
-### For *go*:
-##### Running hello-world
-
-```bash
-go run hello-world.go
-```
-
-#### Building hello-world into an executable
-```bash
-go build hello-world.go
-./hello-world
-```
-
-### For *fortran*:
-##### Running hello-world
-- First compile the code into an executable _helloworldfortran.out_:
-```bash
-gfortran hello-world.f90 -o helloworldfortran.out
-```
-- Then run the executable:
-```bash
-./helloworldfortran.out
-```
-
 ## Running projects via Docker:
 
 ### Running the container
