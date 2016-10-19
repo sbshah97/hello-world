@@ -6,25 +6,48 @@
 
 ## Prerequisites and usage
 For each hello-world download that language's compiler and run the file.
-### Example: For the python hello-world
+
+### Examples: 
+
+### For *python*:
+- (assuming you have python. But everyone has python)
+```bash
+python hello_world.py 
 ```
-python hello_world.py (assuming you have python. But everyone has python)
-```
-### For go
+
+### For *go*:
 ##### Running hello-world
-```
+
+```bash
 go run hello-world.go
 ```
+
 #### Building hello-world into an executable
-```
+```bash
 go build hello-world.go
 ./hello-world
 ```
 
+## Running projects via Docker:
+
+### Running the container
+- Make sure you have [docker.io](https://www.docker.com/) installed on your system by running `docker -v`, which should log the current version of *docker* installed.
+- Run `docker run -v $(pwd):/home/docker -w /home/docker -it --rm <image_name> /bin/bash` to run an interactive container.
+- Compile and run your desired program
+
+### Docker hello-world:
+- After installing [Docker](https://www.docker.com/), simply run `docker run hello-world`.
+- This should create a container which displays a **hello-world** message.
+
+### Finding your desired image:
+- Goto the [docker hub](https://hub.docker.com/).
+- Search for the language/environment you want to run.
+- Choose any image in the list.
+- Run the [command mentioned above](https://github.com/akram-rameez/hello-world/blob/master/README.md#running-the-container) by replacing the **<image_name>** with the corresponding image.
 
 ## Contributing
 
--I am always looking for more contributions.
+- I am always looking for more contributions.
 - If you're wondering how to contribute do check out [Contributing](https://github.com/salman-bhai/hello-world/blob/master/CONTRIBUTING.md)
 
 ## License
