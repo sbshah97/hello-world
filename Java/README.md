@@ -10,8 +10,32 @@ $ sudo apt-get install oracle-java8-installer
 
 ```
 ### Windows
+(Note: It is recommended, before you proceed with online installation you may want to disable your Internet firewall. In some cases the default firewall settings are set to reject all automatic or online installations such as the Java online installation. If the firewall is not configured appropriately it may stall the download/install operation of Java under certain conditions. Refer to your specific Internet firewall manual for instructions on how to disable your Internet Firewall.)
+
+- Visit the [Java downloads page](https://www.java.com/en/download/manual.jsp)
+
+- Click on 'Windows Online'
+
+- The File Download dialog box appears prompting you to run or save the download file
+	- Click 'Run' to run installer
+	- When installation process starts. Click 'Install' button to accept license terms and to continue with the installation
+	- Follow the instruction on the installation wizard
+	- Click 'Close' on the last dialog and it will complete Java installation process
+
 
 ### Mac OS X
+- Visit the [Java downloads page](http://www.oracle.com/technetwork/java/javase/downloads/)
+
+- Download the 'jre-8u65-macosx-x64.pkg' file
+
+- Launch the .pkg file
+
+- Double click on the package icon to start installation wizard
+
+- Follow the instruction on the installation wizard
+
+- After installation has completed, a confirmation screen will appears. Click 'Close' to finish the installation process
+
 
 ### Linux
 
