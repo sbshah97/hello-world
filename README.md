@@ -7,12 +7,15 @@
 ## Prerequisites and usage
 For each hello-world download that language's compiler and run the file.
 
-### Examples: 
+## Structure
+The hello-world code for each language is in its own directory. This directory also contains a specific README.md with instructions on how to run the code.
+
+### Examples:
 
 ### For *python*:
 - (assuming you have python. But everyone has python)
 ```bash
-python hello_world.py 
+python Python/hello_world.py
 ```
 
 ### For *go*:
