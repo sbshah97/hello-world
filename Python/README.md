@@ -20,13 +20,13 @@ Verify that the installation was successful by opening the command prompt and ty
 
 Mac OS X comes pre-installed with Python 2.7
 
-For up to date installation installation or if you want to install Python 3, please check python documentation [here](https://docs.python.org/3/using/mac.html#getting-and-installing-macpython).
+For up-to-date installation instructions or if you want to install Python 3, please check python documentation [here](https://docs.python.org/3/using/mac.html#getting-and-installing-macpython).
 
 #### Linux
 
 Python 2 and Python 3 comes preinstalled on most Linux distributions, and is available as a package on most others.
 
-For up to date instructions on compiling or packaging python, please refer to python documentation [here](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python).
+For up-to-date instructions on compiling or packaging python, please refer to python documentation [here](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python).
 
 ### Running "Hello World"
 This step is the same for all operating systems. Navigate to the directory containing `hello-world.py` (you can do this from the terminal or command line using the `cd` command). Type `python hello-world.py` and the console should print `Hello, world!`
