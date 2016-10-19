@@ -11,19 +11,19 @@ For each hello-world download that language's compiler and run the file.
 
 ### For *python*:
 - (assuming you have python. But everyone has python)
-```python
+```bash
 python hello_world.py 
 ```
 
 ### For *go*:
 ##### Running hello-world
 
-```go
+```bash
 go run hello-world.go
 ```
 
 #### Building hello-world into an executable
-```go
+```bash
 go build hello-world.go
 ./hello-world
 ```
