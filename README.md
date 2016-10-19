@@ -6,25 +6,31 @@
 
 ## Prerequisites and usage
 For each hello-world download that language's compiler and run the file.
-### Example: For the python hello-world
+
+### Examples: 
+
+### For *python*:
+- (assuming you have python. But everyone has python)
+```python
+python hello_world.py 
 ```
-python hello_world.py (assuming you have python. But everyone has python)
-```
-### For go
+
+### For *go*:
 ##### Running hello-world
-```
+
+```go
 go run hello-world.go
 ```
+
 #### Building hello-world into an executable
-```
+```go
 go build hello-world.go
 ./hello-world
 ```
 
-
 ## Contributing
 
--I am always looking for more contributions.
+- I am always looking for more contributions.
 - If you're wondering how to contribute do check out [Contributing](https://github.com/salman-bhai/hello-world/blob/master/CONTRIBUTING.md)
 
 ## License
