@@ -43,7 +43,7 @@ go build hello-world.go
 - Goto the [docker hub](https://hub.docker.com/).
 - Search for the language/environment you want to run.
 - Choose any image in the list.
-- Run the 
+- Run the [command mentioned above](https://github.com/akram-rameez/hello-world/blob/master/README.md#running-the-container) by replacing the **<image_name>** with the corresponding image.
 
 ## Contributing
 
