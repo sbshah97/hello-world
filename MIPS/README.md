@@ -16,7 +16,7 @@ In your terminal:
 
 ####Windows
 
-+ Download and install the 9.1.17 version of QtSpim for Windows from:<br<
++ Download and install the 9.1.17 version of QtSpim for Windows from:<br>
 	https://sourceforge.net/projects/spimsimulator/files
 
 ####Running program
