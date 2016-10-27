@@ -21,4 +21,5 @@ This will give you hello-world.js. To run this one, you have to make a simple ht
 </html>```
 To finally run this one, double click it or drag it in your internet browser (i.e. Chrome).
 
->If you only want to print 'Hello, World!' to the console; ```console.log("Hello, World");```
+Alternatively, if you only want to print 'Hello, World!' to the console you can use:
+ ```console.log("Hello, World");```
