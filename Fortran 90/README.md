@@ -1,13 +1,15 @@
-##Installation 
+## Installation 
 
-###Linux 
+### Linux 
 
 If you don’t have GNU Fortran compiler, install it as shown below.
 
+```
 $ sudo apt-get install gfortran
+```
 
 Check if Fortran compiler is installed on your system as shown below.
-
+```
 $ whereis gfortran 
 
 gfortran: /usr/bin/gfortran /usr/share/man/man1/gfortran.1.gz
@@ -15,18 +17,17 @@ gfortran: /usr/bin/gfortran /usr/share/man/man1/gfortran.1.gz
 $ which gfortran
 
 /usr/bin/gfortran
+```
 
+## Running 
 
+### Linux
 
-##Running 
+1. open terminal
 
-###Linux
+2. cd into the folder that contains the `hello-world.f90` file
 
-1.open terminal
+3. Type `gfortran -ffree-form hello-world.f90`
 
-2.cd into the folder that contains the `hello-world.f90` file
-
-3.type `gfortran -ffree-form hello-world.f90`
-
-4.run the object file output by fortran by running `./a.out`
+4. Run the object file output by fortran by running `./a.out`
 

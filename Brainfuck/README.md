@@ -1,8 +1,8 @@
-##Getting Started
+## Getting Started
 
 Brainfuck is an esoteric language created in 1993 by Urban Muller, and notable for its extreme minimalism.It also happens to be fully Turing-complete.  
   
-###Commands
+### Commands
 
 It has only 8 simple commands.  
  - > increment the data pointer
@@ -15,14 +15,14 @@ It has only 8 simple commands.
  - ] if the byte at data pointer is not 0 execution loop backs to matching bracket [
   
 
-###Geting an Interpreter
+### Geting an Interpreter
 
 Lots of interpreters are available.  
 Original distribution by Urban Muller can be found [here](http://main.aminet.net/dev/lang/brainfuck-2.lha).  
 A simple one is available at [mig-hub/yabi](https://github.com/mig-hub/yabi).  
 Compile the interpreter using the respective instructions.
 
-###Running Your Code
+### Running Your Code
 
 After compiling Muller's Interpreter run your program using :  
 ```

@@ -1,3 +1,5 @@
+# Ruby
+
 ## Getting Started
 
 ### Installing Ruby
@@ -9,6 +11,7 @@ You can also install from source code. Visit the [Ruby Downloads](https://www.ru
 Verify that the installation was successful by opening the command prompt and typing `ruby --version`. You should see the version of Ruby you installed.
 
 ### Running "Hello World"
+
 This step is the same for all operating systems. Navigate to the directory containing `hello-world.rb` (you can do this from the terminal or command line using the `cd` command). Type `ruby hello-world.rb` and the console should print `Hello, world!`
 
 **Congratulations! You've run your first Ruby program!**

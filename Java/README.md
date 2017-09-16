@@ -2,13 +2,8 @@
 
 
 ## Installing Java
-```
 
-$ sudo add-apt-repository ppa:webupd8team/java
-$ sudo apt-get update
-$ sudo apt-get install oracle-java8-installer
 
-```
 ### Windows
 (Note: It is recommended, before you proceed with online installation you may want to disable your Internet firewall. In some cases the default firewall settings are set to reject all automatic or online installations such as the Java online installation. If the firewall is not configured appropriately it may stall the download/install operation of Java under certain conditions. Refer to your specific Internet firewall manual for instructions on how to disable your Internet Firewall.)
 
@@ -38,6 +33,12 @@ $ sudo apt-get install oracle-java8-installer
 
 
 ### Linux
+```
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+
+```
 
 - Open Applicaction -> Accessories -> Terminal
 
@@ -49,20 +50,19 @@ $ sudo apt-get install oracle-java8-installer
 
 - (Note: openjdk-8-jdk is symbolically used here. You can choose the JDK version as per your requirement.)
 
-`$ export JAVA_HOME=/usr/lib/jvm/java-7-openjdk`
+`$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk`
 
 - (Note: "/usr/lib/jvm/java-7-openjdk" is symbolically used here just for demostration. You should use your path as per your installation.)
 
 - For "PATH" (Environment Variable) type command as shown below, in "Terminal" using your installation path...
 
-` $ export PATH=$PATH:/usr/lib/jvm/java-7-openjdk/bin`
+` $ export PATH=$PATH:/usr/lib/jvm/java-8-openjdk/bin`
 
 - (Note: "/usr/lib/jvm/java-7-openjdk" is symbolically used here just for demostration. You should use your path as per your installation.)
 
 - Check for "open jdk" installation, just type command in "Terminal" as shown below
 
 ` $ javac -version`
-
 
 ## Running "Hello World"
 - This step is the same for all operating systems. 

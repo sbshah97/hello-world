@@ -1,12 +1,10 @@
-##Installation 
+## Installation 
 
 For updated information on the installation process, visit [here](https://github.com/JuliaLang/julia)
 
+## Running
 
-
-##Running
-
-###Linux
+### Linux
 
 1. Open Terminal
 2. `cd` into the folder containing `hello-world.jl`

@@ -1,6 +1,7 @@
 ## Getting Started
 
 ### Prerequisites
+
 You'll need a .NET Runtime for Boo.
 * On Windows, install [Microsoft's .NET Runtime](http://msdn.microsoft.com/en-us/vstudio/aa496123.aspx).
 * On Linux, install [Mono](http://www.mono-project.com/).

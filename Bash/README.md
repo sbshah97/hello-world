@@ -15,4 +15,4 @@ Find your platform below and execute the script to show output.
  2. Make sure file is executable ```chmod 750 hello-world```
  3. Execute file ```./hello-world.sh```
 
-Notes: We assume you undersstand how to run basic commands from a shell to accomplish changing directories to your project clone.
+Notes: We assume you understand how to run basic commands from a shell to accomplish changing directories to your project clone.

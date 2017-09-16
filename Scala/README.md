@@ -1,6 +1,8 @@
+# Scala
+
 ## Getting Started
 
- Before you start installing Scala on your machine, you must have Java 1.8 or greater installed on your computer.
+Before you start installing Scala on your machine, you must have Java 1.8 or greater installed on your computer.
 
 ### Installing Scala binaries
 

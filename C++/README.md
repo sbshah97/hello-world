@@ -4,8 +4,6 @@
 
 Linux already has GNU C++ compiler `g++` for compiling C++ files. So need for any external softwares here. 
 
-
-
 ##Running 
 
 ###Linux

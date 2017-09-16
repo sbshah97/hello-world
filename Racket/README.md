@@ -1,4 +1,4 @@
-# Installing and Running Racket
+# Racket
 
 ## Installing Racket / DrRacket
 

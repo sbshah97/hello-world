@@ -1,5 +1,4 @@
 import std.stdio;
-void main()
-{
-   writeln("Hello World!");
+void main() {
+	writeln("Hello World!");
 }

@@ -1,4 +1,4 @@
-## Getting started
+## Pascal
 
 ### Installing the Pascal compiler
 
@@ -9,4 +9,4 @@ Free Pascal is a free compiler for running Pascal programs on Linux, Windows, Ma
 ### Building and running Pascal code
 To compile your program, go to `Compile > Compile` or press `Alt + F9`. Then, to run it, go to `Run > Run` or use `Ctrl/Cmd + F9`.
 
-#### Congrats! You have just run your first Pascal code! :smile:
+Congrats! You have just run your first Pascal code! :smile:
