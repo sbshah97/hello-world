@@ -23,9 +23,6 @@ You can download and install a PowerShell package for any of the following platf
 | Docker                             |                        | [Instructions](https://github.com/PowerShell/PowerShell/blob/master/docker)     |
 | Kali Linux                         | [.deb](https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-beta.7/powershell_6.0.0-beta.7-1ubuntu1.16.04.1_amd64.deb)    | [Instructions](https://github.com/PowerShell/PowerShell/blob/master/docs/installation/linux.md#kali)       |
 
-### Installing PowerShell
-
-
 
 ### Running "Hello World"
 This step is the same for all operating systems. Navigate to the directory containing `hello-world.ps1` (you can do this from the terminal or command line using the `cd` command). Type `.\hello-world.ps1` and the console should print `Hello, World!`
