@@ -19,6 +19,11 @@ In your terminal:
 * Download and install the 9.1.17 version of QtSpim for Windows from:<br>
 	https://sourceforge.net/projects/spimsimulator/files
 
+#### MacOS
+
+* Download and install the 9.1.20 version of QtSpim for MacOS from:<br>
+	https://sourceforge.net/projects/spimsimulator/files
+
 ### Running program
 
 * Clone the repostitory
