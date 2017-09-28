@@ -9,7 +9,7 @@ Before you start installing Scala on your machine, you must have Java 1.8 or gre
 ### Installing Scala binaries
 
 * Windows: Install [Scala binaries](http://www.scala-lang.org/download/).
-* Linux: Install
+* Linux: Install  
 &nbsp;&nbsp;&nbsp;&nbsp; - Ubuntu and other Debian-based distro
                    `echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list`
                     `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823`
