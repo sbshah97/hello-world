@@ -64,20 +64,32 @@ $ gfortran
 
 1. Open terminal
 
-2. cd into the folder that contains the `hello-world.f90` file
+2. `cd` into the folder that contains the `hello-world.f90` file
 
-3. Type `gfortran hello-world.f90`
+3. To compile:
+```
+$ gfortran hello-world.f90
+```
 
-4. Run the object file output from gfortran by running `./a.out`
+4. To run the object file output from gfortran:
+```
+$ ./a.out
+```
 
 
 ### Windows
 
 1. Open a command window
 
-2. cd into the folder that contains the `hello-world.f90` file
+2. `cd` into the folder that contains the `hello-world.f90` file
 
-3. Type `gfortran hello-world.f90`
+3. To compile:
+```
+$ gfortran hello-world.f90
+```
 
-4. Run the object file output from gfortran by running `a.exe`
+4. To run the object file output from gfortran:
+```
+$ a.exe
+```
 
