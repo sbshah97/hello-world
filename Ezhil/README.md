@@ -4,7 +4,9 @@
 ## Introduction
 
 
-எழில்: தமிழ் நிரலாக்க மொழி; முதன்முறை கணிப்பொறி நிரல் எழுதுகிற 
+### எழில்
+
+தமிழ் நிரலாக்க மொழி; முதன்முறை கணிப்பொறி நிரல் எழுதுகிற 
 தமிழ் மாணவர்களுக்கு இது உதவும்.
 
 எழில் மொழி  குழந்தைகளும்  , பள்ளி மாணவர்களும்  கட்ட்ருகொள்ளும் வகையில் உருவாக்கப்பட்ட ஒரு கணினி நிரல் மொழி.
@@ -12,7 +14,9 @@
 எழில் மொழியில் நிபந்தனை கட்டளைகள், மடக்கு கட்டளைகள் என்றும்  எழுதலாம்; இதில் செயல்பாடுகள், செயல்குருகள் என்று கணினி நிரல்களை 
 பிரிக்கலாம். எழில்  மென்பொருள் அத்யாயம்  எண்  v0.8. பைதான் மொழி அடிப்படையில் உருவாக்கப்பட்டது.
 
-Ezhil-Lang : (Ezhil, is a fun Tamil programming language for K-12) Ezhil is 
+### Ezhil-Lang 
+
+(Ezhil, is a fun Tamil programming language for K-12) Ezhil is 
 a procedural language with dynamic types, like Ruby/Python. Ezhil has a 
 pascal-like syntax, with for-end, while-end, if-elseif-else-end statements,
 break, continue and def-end for defining functions. Ezhil language is 
