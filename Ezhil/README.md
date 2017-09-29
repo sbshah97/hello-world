@@ -70,7 +70,7 @@ Open a command prompt window and navigate to the folder containing get-pip.py.
 
 Then run python get-pip.py. This will install pip.
 
-```python get-pip.py```
+`python get-pip.py`
 
 You need to install pip for installing easier Ezhil installation
 
