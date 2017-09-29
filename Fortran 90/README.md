@@ -39,15 +39,15 @@ Using Scoop:
 $ scoop install gcc
 ```
 
-Otherwise, download the MinGW installer [here](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download) and unzip the file to `C:\MinGW`
-To change the PATH so you can use it on the command line, right click the My Computer icon and select Properties. Go to the Advanced tab, and click the Enviroment Settings button. Change the top box, the user PATH, by clicking Edit, and then at the end, adding
+Otherwise, download the MinGW installer [here](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download) and unzip the file to `C:\MinGW`.
+To change the PATH so you can use it on the command line, right click the My Computer icon and select Properties. Go to the Advanced tab, and click the Enviroment Settings button. Change the top box, the user PATH, by clicking Edit, and then at the end, add:
 ```
 [other PATH stuff];C:\MinGW\bin
 ```
 
 Click Ok, Ok, and Ok to save and exit.
 
-Then, to install gfortran, go to a command window and type
+Then, to install gfortran, open a command window and type
 ```
 $ mingw-get install gfortran
 ```
@@ -59,9 +59,9 @@ $ gfortran
 
 ## Running
 
-### Linux/MacOS/
+### Linux/MacOS
 
-1. Open terminal
+1. Open a terminal
 
 2. `cd` into the folder that contains the `hello-world.f90` file
 
