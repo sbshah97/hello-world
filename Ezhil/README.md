@@ -1,10 +1,9 @@
-Ezhil
-=====
+# Ezhil
 
-Introduction
-============
 
-```
+## Introduction
+
+
 எழில்: தமிழ் நிரலாக்க மொழி; முதன்முறை கணிப்பொறி நிரல் எழுதுகிற 
 தமிழ் மாணவர்களுக்கு இது உதவும்.
 
@@ -18,8 +17,7 @@ a procedural language with dynamic types, like Ruby/Python. Ezhil has a
 pascal-like syntax, with for-end, while-end, if-elseif-else-end statements,
 break, continue and def-end for defining functions. Ezhil language is 
 implemented in a handwritten scanner and parser using the Python programming 
-language. Latest version of Ezhil-Language is v0.8.
-```
+language. Latest version of Ezhil-Language is v0.8. 
 
 You can find more information about ezhil in https://github.com/Ezhil-Language-Foundation/Ezhil-Lang
 
@@ -32,7 +30,39 @@ To install python - https://github.com/salman-bhai/hello-world/blob/master/Pytho
 
 To install pip
 
-This is the same for all operating systems. 
+### Install PIP in Linux Systems
+
+To install pip in Linux, run the appropriate command for your distribution as follows:
+
+### Install PIP On Debian/Ubuntu
+
+`apt install python-pip`	#python 2
+`apt install python3-pip`	#python 3
+
+### Install PIP On CentOS and RHEL
+
+Unluckily, pip is not packaged in official software repositories of CentOS/RHEL. So you need to enable the EPEL repository and then install it like this.
+
+`yum install epel-release` 
+`yum install python-pip`
+
+### Install PIP on Fedora
+
+`dnf install python-pip`	#Python 2
+`dnf install python3`		#Python 3
+
+### Install PIP on Arch Linux
+
+`pacman -S python2-pip`	        #Python 2
+`pacman -S python-pip`	        #Python 3
+
+### Install PIP on openSUSE
+
+`zypper install python-pip`	#Python 2
+`zypper install python3-pip`	#Python 3
+
+
+Or you can follow this for any operating system. 
 
 Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. 
 
@@ -46,7 +76,7 @@ You need to install pip for installing easier Ezhil installation
 
 Run the following command to install Ezhil
 
-```pip install ezhil```
+`pip install ezhil`
 
 
 ## Running "Hello World"
@@ -62,8 +92,7 @@ $ ezhili helloworld.n
 
 You can run Ezhil in Interactive Mode also.
 
-Interactive Mode
-================
+### Interactive Mode
 
 ```bash
 $ ezhili
