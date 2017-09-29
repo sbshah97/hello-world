@@ -13,7 +13,6 @@ $ sudo apt-get install gfortran
 Test if the Fortran compiler installed correctly:
 ```
 $ gfortran
-
 ```
 
 ### MacOS
