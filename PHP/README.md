@@ -61,10 +61,10 @@ Go to https://www.apachefriends.org/index.html, download and install XAMPP.
 6. Open the browser and navigate to:
 	`http://localhost/hello-world.php`
 
-## OS X
+## Mac OS
 
 ### Installation
-1. Since apache and PHP come packaged with OS X no need to install manually again.
+1. Since apache and PHP come packaged with Max OS no need to install manually again.
 
 ### Alternative install PHP with homebrew
 
