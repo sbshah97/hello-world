@@ -20,9 +20,9 @@ Verify that the installation was successful by opening the command prompt and ty
 3. Scroll down the lists of variables until you find one called `Path` (if one does not exist, press `New` to create one). Append the path you copied earlier to the end of the list. If there are previous entries, separate them from your Python directory with a semicolon.
 4. You may need to restart your computer for changes to take effect.
 
-#### Mac OS X
+#### Mac OS 
 
-Mac OS X comes pre-installed with Python 2.7
+Mac OS comes pre-installed with Python 2.7
 
 #### Linux
 
