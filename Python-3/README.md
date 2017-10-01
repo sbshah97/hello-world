@@ -20,11 +20,19 @@ Verify that the installation was successful by opening the command prompt and ty
 3. Scroll down the lists of variables until you find one called `Path` (if one does not exist, press `New` to create one). Append the path you copied earlier to the end of the list. If there are previous entries, separate them from your Python directory with a semicolon.
 4. You may need to restart your computer for changes to take effect.
 
-#### Mac OS X
+#### Mac OS
 
-Mac OS X comes pre-installed with Python 2.7
+Mac OS comes pre-installed with Python 2.7
 
-For up-to-date installation instructions or if you want to install Python 3, please check python documentation [here](https://docs.python.org/3/using/mac.html#getting-and-installing-macpython).
+For up-to-date installation instructions or if you want to install Python 3, please check python documentation [here](https://docs.python.org/3/using/mac.html#getting-and-installing-macpython). 
+
+Alternatively you can install python3 via homebrew as follows:
+
+1. Open terminal.
+2. if you did not install homebrew before paste on this terminal: ```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+otherwise go to step 3.
+3. ``` $ brew install python3 ```
+
 
 #### Linux
 
