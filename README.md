@@ -10,8 +10,6 @@ For each hello-world download that language's compiler and run the file.
 ## Structure
 The hello-world code for each language is in its own directory. This directory also contains a specific README.md with instructions on how to run the code.
 
-### Examples:
-
 ## Running projects via Docker:
 
 ### Running the container
