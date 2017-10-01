@@ -21,11 +21,12 @@ In the command-prompt window, enter the following command to run the program:
 
 ## Linux
 ### Installing MonoDevelop related tools (compiler and editor)
-You only have to write in the command-prompt of this followin sentece
+ * Write in the command-prompt of this followin sentence
 
 On Ubuntu
 `sudo apt-get install monodevelop mono-utils`
 
+### Building and running C# code
 Open **the native terminal** and `cd` to the folder containing your `hello-world.cs` file.
 After that, enter the following command to compile `hello-world.cs`.
 
@@ -45,3 +46,20 @@ In the command-prompt window, enter the following command to run the program:
 
 
 
+## MacOS
+### Installing Mono Framework (compiler and editor)
+* Download de Mono Framework from [here](http://www.mono-project.com/download/#download-mac)
+ 
+### Building and running C# code
+Open **the native MacOs terminal** and `cd` to the folder containing your `hello-world.cs` file.
+After that, enter the following command to compile `hello-world.cs`.
+
+`mcs hello-world.cs` 
+
+If your program has no compilation errors, an executable file that is named `hello-world.exe` is created.
+
+In the command-prompt window, enter the following command to run the program:
+
+`mono hello-world.exe`
+
+**Congratulations! You've run your first C# program! on MacOS**
