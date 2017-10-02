@@ -21,6 +21,8 @@ Now go to `File > Open` to open a .pde file. Then just hit the little run button
 
 ## Linux
 
+### Installing Processing
+
 Extract the contents of the downloaded tar.gz file with `tar tar xvfz processing-x.x.x.tgz`. This will create a directory called `processing-x.x.x`.
 
 ### Running "Hello World"
@@ -31,6 +33,8 @@ Now go to `File > Open` to open a .pde file. Then just hit the little run button
 **Congratulations! You've run your first Processing program on linux!**
 
 ## Mac OS X
+
+### Installing Processing
 
 Extract the downloaded zip-File and drag the Processing icon to the Applications folder.
 
