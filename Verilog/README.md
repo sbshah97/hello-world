@@ -23,5 +23,4 @@
 
 * Run the compiled file by
 
-         vvp hello.vv
-
+         vvp hello.vvp
