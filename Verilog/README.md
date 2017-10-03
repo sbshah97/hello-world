@@ -5,11 +5,11 @@
 
 * Update the local repository cache
 
-        $ sudo apt-get update
+`$ sudo apt-get update`
 
 * Install (update) the Icarus Verilog package
 
-        $ sudo apt-get install verilog
+`$ sudo apt-get install iverilog`
 
 ### Windows
 * [Download the windows installer](http://bleyer.org/icarus/) for your system.
@@ -19,8 +19,8 @@
 ## Running the Hello World program
 * Go to the location of your program and compile it by
 
-        iverilog HelloWorld.v -o hello.vvp
+`iverilog HelloWorld.v -o hello.vvp`
 
 * Run the compiled file by
 
-         vvp hello.vvp
+`vvp hello.vvp`
