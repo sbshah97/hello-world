@@ -16,7 +16,7 @@ What happens here is, `g++` takes in the human-readable C++ file and output a ma
 ## Mac OS
 
 1. open terminal
-2. if you did not install Xcode command line tools before paste on this terminal: ````$ xcode-select --install``` otherwise go to step 3 
+2. if you did not install Xcode command line tools before paste on this terminal: ```$ xcode-select --install``` otherwise go to step 3 
 3. cd into the folder that contains the `hello-world.cpp` file
 4. type `g++ hello-world.cpp`
 5. run the object file output by g++ by running `./a.out`
