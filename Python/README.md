@@ -5,6 +5,16 @@
 ### Downloading Python
 Visit the [Python downloads page](https://www.python.org/downloads/) and select your OS. You may notice that there are two versions of Python--2.x.x and 3.x.x. Version 2 is the legacy version, whereas v3 is the present and future version of Python. Download the appropriate version of the installer (x86/32-bit or x64/64-bit) for your system.
 
+### Should I choose Python 2 or Python 3?
+[Python 2 vs Python 3](https://wiki.python.org/moin/Python2orPython3)
+Short version: Python 2.x is legacy, Python 3.x is the present and future of the language.
+
+If you can do exactly what you want with Python 3.x, great! There are a few minor downsides, such as very slightly worse library support and the fact that some current Linux distributions and Macs still use 2.x as default, but as a language Python 3.x is definitely mature and ready for use.
+
+If you want to use Python 3.x, but you are afraid to because of a dependency, it's probably worthwhile doing some research first.
+
+It is useful to always read the documentation of the packages that you are using, so as to ensure that you are using the right tool for the right job.
+
 ### Installing Python
 
 #### Windows
@@ -20,7 +30,7 @@ Verify that the installation was successful by opening the command prompt and ty
 3. Scroll down the lists of variables until you find one called `Path` (if one does not exist, press `New` to create one). Append the path you copied earlier to the end of the list. If there are previous entries, separate them from your Python directory with a semicolon.
 4. You may need to restart your computer for changes to take effect.
 
-#### Mac OS 
+#### Mac OS
 
 Mac OS comes pre-installed with Python 2.7
 
