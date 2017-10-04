@@ -1,11 +1,11 @@
 # PHP
 
 ## Windows
-### Installation 
+### Installation
 
 Go to https://www.apachefriends.org/index.html, download and install XAMPP.
 
-### Running 
+### Running
 
 #### Web hosting
 
@@ -13,7 +13,7 @@ Go to https://www.apachefriends.org/index.html, download and install XAMPP.
 2. Open your browser
 3. Navigate to `http://<your-domain>/hello-world.php`
 
- 
+
 #### Running in the console
 
 1. Open a terminal emulator/command prompt
@@ -61,10 +61,17 @@ Go to https://www.apachefriends.org/index.html, download and install XAMPP.
 6. Open the browser and navigate to:
 	`http://localhost/hello-world.php`
 
-## OS X
+## Mac OS
 
 ### Installation
-1. Since apache and PHP come packaged with OS X no need to install manually again. 
+1. Since apache and PHP come packaged with Mac OS no need to install manually again.
+
+### Alternative install PHP with homebrew
+
+1. Open terminal
+2. Paste on terminal ```$  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
+3. ``` $ brew install homebrew/php/php70 ```
+4. ``` $ php -v ```
 
 ### Running
 
@@ -77,7 +84,7 @@ Go to https://www.apachefriends.org/index.html, download and install XAMPP.
 #### Running in the terminal
 1. To run hello-world.php in terminal type:
 	`$ php hello-world.php`
-	
+
 #### Running locally on browser
 1. Copy hello-world.php to folder - `/Library/WebServer/Documents/`
 2. Start apache server:
