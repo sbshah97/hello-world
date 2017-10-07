@@ -9,7 +9,7 @@ To install TypeScript, you have to use Node.js:
 
 ```npm install -g typescript```
 
-Or you ahve to install TypeScript's Visual Studio plugins, which you can easily find on their website.
+Or you can install TypeScript's Visual Studio plugins, which you can easily find on their website.
 
 ## Running TypeScript
 
