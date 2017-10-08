@@ -69,7 +69,7 @@ Go to https://www.apachefriends.org/index.html, download and install XAMPP.
 ### Alternative install PHP with homebrew
 
 1. Open terminal
-2. Paste on terminal ```$  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
+2. If you did not install homebrew before paste on this terminal: ```$  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ``` otherwise go to step 3.
 3. ``` $ brew install homebrew/php/php70 ```
 4. ``` $ php -v ```
 
