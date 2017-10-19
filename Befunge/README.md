@@ -4,15 +4,15 @@ Befunge is an esoteric language created in 1993 by Chris Pressey. It is stack ba
   
 ### Commands
 
- - + Addition: Pop two values a and b, then push the result of a+b
-- - Subtraction: Pop two values a and b, then push the result of b-a
-- * Multiplication: Pop two values a and b, then push the result of a*b
+- \+ Addition: Pop two values a and b, then push the result of a+b
+- \- Subtraction: Pop two values a and b, then push the result of b-a
+- \* Multiplication: Pop two values a and b, then push the result of a*b
 - / Integer division: Pop two values a and b, then push the result of b/a, rounded down. According to the specifications, if a is zero, ask the user what result they want.
 - % Modulo: Pop two values a and b, then push the remainder of the integer division of b/a.
 - ! Logical NOT: Pop a value. If the value is zero, push 1; otherwise, push zero.
 - ` Greater than: Pop two values a and b, then push 1 if b>a, otherwise zero.
 - < PC direction right
-- > PC direction left
+- \> PC direction left
 - ^ PC direction up
 - v PC direction down
 - ? Random PC direction
@@ -24,7 +24,7 @@ Befunge is an esoteric language created in 1993 by Chris Pressey. It is stack ba
 - $ Pop (remove) top stack value and discard
 - . Pop top of stack and output as integer
 - , Pop top of stack and output as ASCII character
-- # Bridge: jump over next command in the current direction of the current PC
+- \# Bridge: jump over next command in the current direction of the current PC
 - g A "get" call (a way to retrieve data in storage). Pop two values y and x, then push the ASCII value of the character at that position in the program. If (x,y) is out of bounds, push 0
 - p A "put" call (a way to store a value for later use). Pop three values y, x and v, then change the character at the position (x,y) in the program to the character with ASCII value v
 - & Get integer from user and push it
@@ -41,6 +41,6 @@ It is important to remember that unlike most other languages, the program counte
 
 Try pasting the Hello World example provide in this folder and modifying it from there.
 
-**Congratulations! You've just run your first Brainfuck Program**
+**Congratulations! You've just run your first Befunge Program**
 
 
