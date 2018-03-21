@@ -11,7 +11,7 @@
   
 * Save file with extension `.jade` For example,
  
- `index.jade`
+  `index.jade`
  
 * Compile code to generate plain HTML using this command
 
