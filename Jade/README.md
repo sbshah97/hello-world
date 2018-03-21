@@ -10,9 +10,11 @@
   * [SublimeText](sublimetext.com)
   
 * Save file with extension `.jade` For example,
+ 
  `index.jade`
+ 
 * Compile code to generate plain HTML using this command
 
-`$ jade index.jade`
+  `$ jade index.jade`
 
 * Now you have `index.html` file, if you done everything correctly, You can open this `index.html` file in browser by double clicking it.
