@@ -8,7 +8,7 @@ Useful links:
 
 • [Somewhere on Internet](https://codelani.com/languages/hodor.html#:~:text=hodor%20is%20an%20actively%20used,it%20easier%20than%20ever%20before.)
 
-•[Palindrome Checker in Hodor Language](https://github.com/abhilipsasahoo03/Palindrome-Checker-in-Hodor-language)
+• [Palindrome Checker in Hodor Language](https://github.com/abhilipsasahoo03/Palindrome-Checker-in-Hodor-language)
 
 However, here's a small guide you can refer to:
 
@@ -36,3 +36,6 @@ Note: Replace ```Hodorfile``` with the folder name in which the Hello World Hodo
 Example:
 ![Screenshot (300)](https://user-images.githubusercontent.com/80174214/149141326-4aa326f0-9ce1-4a56-b93f-6741985dc8b6.png)
 
+## js2hd
+To hit the ground running, you can convert your old JavaScript files to Hodor using the js2hd tool.
+`js2hd myfile.js` -> `myfile.hd`
